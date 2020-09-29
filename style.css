@@ -22,15 +22,40 @@ header {
 header > a {
     text-decoration: none;
     color: white;
-    flex-basis: 50%;
-    display: flex;
+    flex-basis: 20%;
+    margin: 0;
+}
+
+header > a > img {
+  float: left;
+  margin: 15px auto;
+}
+
+
+header > a > p {
+   text-align: left;
+   margin-left: 4em;
+  }
+
+  header> a:hover {
+    color: #F26522;
+  }
+
+  header > a > img :hover {
+    fill: #F26522
+};
+
+#milan {
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 header > div {
-    flex-basis: 50%;
+    flex-basis: 80%;
     text-align: right;
     margin: auto;
 }
+
 
 
 main {
