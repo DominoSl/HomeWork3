@@ -6,9 +6,9 @@
 
 body {
     background-image: url(./img/Back.png);
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
 }
 
 header {
@@ -27,8 +27,8 @@ header > a {
 }
 
 header > a > img {
-  float: left;
-  margin: 15px auto;
+  display: inline-block;
+  margin: 15px 0;
 }
 
 
@@ -39,7 +39,7 @@ header > a > p {
   }
 
   header> a > img:hover {
-    color-adjust: #F26522;
+    overla: #F26522;
   }
 
 
