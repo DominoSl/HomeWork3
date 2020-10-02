@@ -35,11 +35,11 @@ header > a > img {
 header > a > p {
    text-align: left;
    margin-left: 4em;
+   
   }
 
-  header> a:hover {
-    color: #F26522;
-    
+  header> a > img:hover {
+    color-adjust: #F26522;
   }
 
 
